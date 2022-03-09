@@ -10,14 +10,41 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://jbb12890.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Mar 2022 14:33:34 +0900</lastBuildDate><atom:link href="https://jbb12890.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 1st post</title>
+      <link>https://jbb12890.github.io/hugoblog/posts/post4/</link>
+      <pubDate>Wed, 09 Mar 2022 14:33:34 +0900</pubDate>
+      
+      <guid>https://jbb12890.github.io/hugoblog/posts/post4/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>3つ目の投稿。</title>
+      <link>https://jbb12890.github.io/hugoblog/posts/post3/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jbb12890.github.io/hugoblog/posts/post3/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>2つ目の投稿</title>
+      <link>https://jbb12890.github.io/hugoblog/posts/post2/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://jbb12890.github.io/hugoblog/posts/post2/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
     <item>
       <title>Hugo &#43; GitHub Pages &#43; GitHub Actions でブログを開設しようとしてハマったこと。</title>
       <link>https://jbb12890.github.io/hugoblog/posts/testpost/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://jbb12890.github.io/hugoblog/posts/testpost/</guid>
-      <description>これをかくとtocがきく 開発用GitHubレポジトリ（private）と、デプロイ用GitHubレポジトリ（public）で運用する。
+      <description>これをかくとtocがきく fajifeaf 開発用GitHubレポジトリ（private）と、デプロイ用GitHubレポジトリ（public）で運用する。
 GitHub Actionsでエラーが発生。
  開発側を管理するGitHubアカウントでの秘密鍵設定でミス  コメント部分を貼り付けたらうまくいった。（&amp;mdash;&amp;ndash;BEGIN RSA PRIVATE KEY&amp;mdash;&amp;ndash;）   external_repository: の値  username/external-repositoryの末尾に.github.ioをつけていた。    認証部分でのエラーを1.で解消したあとに、別のエラーがでて2.で解決したのでメモとして残しておく。
 1.は初めてSSH鍵の作成をやったのでいい勉強になった。
