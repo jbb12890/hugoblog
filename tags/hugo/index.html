@@ -53,9 +53,14 @@
 <header class=page-header><div class=breadcrumbs><a href=https://jbb12890.github.io/hugoblog>Home</a>&nbsp;»&nbsp;<a href=https://jbb12890.github.io/hugoblog/tags/>Tags</a></div><h1>Hugo</h1></header><article class="post-entry tag-entry">
 <figure class=entry-cover><img loading=lazy src=https://jbb12890.github.io/hugoblog/%3Cimage%20path/url%3E alt>
 </figure><header class=entry-header>
-<h2>Hugo + GitHub Pages でブログやる
+<h2>Hugo ようとしてハマったこと。
 </h2></header><section class=entry-content>
-<p>test post papermod. これちょっとむずかしいかも。</p></section><footer class=entry-footer><span title="2020-09-15 11:30:03 +0000 UTC">September 15, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer><a class=entry-link aria-label="post link to Hugo + GitHub Pages でブログやる" href=https://jbb12890.github.io/hugoblog/posts/testpost/></a>
+<p>開発用GitHubレポジトリ（private）と、デプロイ用GitHubレポジトリ（public）で運用する。
+GitHub Actionsでエラーが発生。
+開発側を管理するGitHubアカウントでの秘密鍵設定でミス コメント部分を貼り付けたらうまくいった。（—–BEGIN RSA PRIVATE KEY—–） external_repository: の値 username/external-repositoryの末尾に.github.ioをつけていた。 認証部分でのエラーを1.で解消したあとに、別のエラーがでて2.で解決したのでメモとして残しておく。 1.は初めてSSH鍵の作成をやったのでいい勉強になった。 2.は別のブログで.github.ioありで記載がありハマった。。公式マニュアルもFor example:のとおり記載すればよかったが、Use case:の部分にexternal_repository: peaceiris/peaceiris.github.ioの記載がありハマってしまった。
+こうしたちょっとのミスでうまく行かなくてハマってしまうことがよくあるが、解決するとすごくスッキリする。
+参考リンク
+Hugo + GitHub Pages + GitHub Actions で独自ドメインのウェブサイトを構築する Create SSH Deploy Key Deploy to external repository external_repository Host on GitHub </p></section><footer class=entry-footer><span title="2020-09-15 11:30:03 +0000 UTC">September 15, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Me</footer><a class=entry-link aria-label="post link to Hugo ようとしてハマったこと。" href=https://jbb12890.github.io/hugoblog/posts/testpost/></a>
 </article></main><footer class=footer>
 <span>&copy; 2022 <a href=https://jbb12890.github.io/hugoblog>My blog</a></span>
 <span>
