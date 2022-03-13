@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Digital Laboratory</title>
-    <link>https://jbb12890.github.io/hugoblog/tags/hugo/</link>
+    <link>https://jbb12890.github.io/hugoblog/categories/hugo/</link>
     <description>Recent content in Hugo on Digital Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://jbb12890.github.io/hugoblog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://jbb12890.github.io/hugoblog/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; GitHub Pages &#43; GitHub Actions でブログを開設しようとしてハマったこと。</title>
       <link>https://jbb12890.github.io/hugoblog/posts/post1/</link>
