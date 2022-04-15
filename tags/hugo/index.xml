@@ -5,6 +5,7 @@
     <link>https://jbb12890.github.io/hugoblog/tags/hugo/</link>
     <description>Recent content in Hugo on Digital Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://jbb12890.github.io/hugoblog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo &#43; GitHub Pages &#43; GitHub Actions でブログを開設しようとしてハマったこと。</title>
